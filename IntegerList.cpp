@@ -125,7 +125,15 @@ public:
     }
 
     int getValue(int pos){
-        return arr[pos];
+        if(isEmpty() || SIZE<=0){
+            return 0;
+        }
+        else if(pos<INDEX || pos>INDEX){
+            return -1;
+        }
+        else{
+            return arr[pos];
+        }
     }
 
     void sortAsc(){

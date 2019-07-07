@@ -11,5 +11,5 @@
 
 ===============================================================
 
-I will update this description soon,
+I will update this description soon
 with proper documentary of this project.
